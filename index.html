@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=photo_camera" /> -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=location_on" /> -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <img src="https://josemiguelgarcia.net/wp-content/uploads/2015/12/Co%CC%81mo-funciona-Instagram.png"
+                alt="Logo" width="150" height="30" class="d-inline-block align-text-top">
+
+            <div class="d-flex align-items-center gap-2">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                   create a new post
+                </button>
+                <div class="dropdown">
+                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span class="material-symbols-outlined">
+                            settings
+                        </span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                        <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item text-danger" href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Configuracion de TABS con sus iconos -->
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                <span class="material-symbols-outlined">
+                    grid_on
+                </span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+                <span class="material-symbols-outlined">
+                   calendar_view_day
+                </span>
+            </button>
+          </li>
+    </ul>
+    <!-- Contenido de cada tab -->
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <div class="container-fuild row mx-0 gap-2">
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 img-container">
+                    <img class="img-fluid" src="https://placehold.co/1920">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            FOTOS HACIA ABAJO
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Caption:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Add the caption of your post here"></textarea>
+                    </div>
+                    <button class="btn btn-light">
+                        <span class="material-symbols-outlined">
+                            photo_camera
+                        </span>
+                    </button>
+                    <button class="btn btn-light">
+                        <span class="material-symbols-outlined">
+                            location_on
+                        </span>
+                    </button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+       crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+       crossorigin="anonymous"></script>
+
+</body>
+
+</html>
